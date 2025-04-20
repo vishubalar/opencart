@@ -172,7 +172,7 @@ class Step2 extends \Opencart\System\Engine\Controller {
 				}
 			}
 
-			$json['error'] = sprintf($this->language->get('error_open_basedir'), $required);
+			#$json['error'] = sprintf($this->language->get('error_open_basedir'), $required);
 		}
 
 		if (!ini_get('file_uploads')) {
